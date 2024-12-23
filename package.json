@@ -1,6 +1,6 @@
 {
   "name": "react-native-maps-expo-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Expo config plugin for react-native-maps iOS Google Maps setup",
   "main": "app.plugin.js",
   "keywords": [
