@@ -1,4 +1,4 @@
-# react-native-maps-expo-config
+# react-native-maps-expo-plugin
 
 Expo Config Plugin for setting up Google Maps in react-native-maps on iOS. Created specifically to support Continuous Native Generation (CNG) workflow.
 
@@ -15,7 +15,7 @@ These manual changes get wiped out when using CNG (`npx expo prebuild --clean`).
 ## Installation
 
 ```bash
-npm install react-native-maps-expo-config
+npm install react-native-maps-expo-plugin
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm install react-native-maps-expo-config
 {
   "plugins": [
     [
-      "react-native-maps-expo-config",
+      "react-native-maps-expo-plugin",
       {
         "googleMapsApiKey": "YOUR_GOOGLE_MAPS_API_KEY"
       }
@@ -51,7 +51,7 @@ All of these changes are handled through the config plugin system, making them c
 
 ## Requirements
 
-- Expo SDK 48 or newer
+- Expo SDK 50 or newer
 - react-native-maps installed in your project
 
 ## Getting your Google Maps API Key
